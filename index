@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>¿Lo intentamos de nuevo?</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8c8dc;
+        text-align: center;
+        color: #5c3045;
+        padding-bottom: 60px;
+    }
+
+    h1 {
+        margin-top: 50px;
+        font-family: "Fredoka", sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        color: #c94f7c;
+        text-shadow: 3px 3px 0px #ffffff;
+    }
+
+    .contenedor {
+        width: 85%;
+        max-width: 900px;
+        margin: 40px auto;
+    }
+
+    .carta {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 25px 0;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .carta:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+    }
+
+    .texto {
+        flex: 1;
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .foto {
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+        border-radius: 18px;
+        overflow: hidden;
+        background-color: #fce4ee;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    }
+
+    .foto img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .pregunta {
+        margin-top: 50px;
+        font-family: "Fredoka", sans-serif;
+        font-size: 30px;
+        color: #c94f7c;
+    }
+
+    .botones {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 25px;
+        flex-wrap: wrap;
+    }
+
+    .boton {
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 55px;
+        font-family: "Fredoka", sans-serif;
+        font-size: 24px;
+        color: #c94f7c;
+        cursor: pointer;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .boton:hover {
+        transform: translateY(-8px) scale(1.05);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+    }
+
+    #mensaje {
+        display: none;
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 30px auto;
+        max-width: 650px;
+        font-size: 19px;
+        line-height: 1.6;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+        animation: aparecer 0.5s ease;
+    }
+
+    /* POSDATA */
+    .posdata {
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 45px auto 25px;
+        max-width: 700px;
+        font-size: 19px;
+        line-height: 1.7;
+        text-align: left;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .posdata-titulo {
+        font-family: "Fredoka", sans-serif;
+        font-size: 24px;
+        color: #c94f7c;
+        margin-bottom: 10px;
+    }
+
+    /* FECHA */
+    .fecha {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 30px;
+        color: #5c3045;
+    }
+
+    @keyframes aparecer {
+        from {
+            opacity: 0;
+            transform: translateY(15px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        .carta {
+            flex-direction: column;
+        }
+
+        .texto {
+            text-align: center;
+        }
+
+        .foto {
+            width: 180px;
+            height: 180px;
+        }
+
+        h1 {
+            font-size: 38px;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<h1>¿Lo intentamos de nuevo?</h1>
+
+<div class="contenedor">
+
+    <div class="carta">
+        <div class="texto">
+            ¿Y si lo intentamos de nuevo? No para hacer como si nada hubiera pasado, sino para hacerlo diferente. Para aprender de lo que nos hizo daño, hablar cuando algo nos moleste y volver a construir poco a poco todo eso que alguna vez nos hizo tan felices. No te prometo que todo será perfecto, pero sí que esta vez quiero hacerlo bien. 💗
+        </div>
+
+        <div class="foto">
+            <img src="fotos/foto1.jpg" alt="Nuestra foto">
+        </div>
+    </div>
+
+    <div class="carta">
+        <div class="texto">
+            No quiero volver al pasado, quiero empezar algo nuevo contigo, pero sin olvidar lo que aprendimos. Quiero volver a conocerte, volver a reír contigo y volver a sentir esa tranquilidad que sentía cuando estábamos bien. Quizá todavía tengamos una oportunidad. Quizá todavía podamos intentarlo una vez más. 🌸
+        </div>
+
+        <div class="foto">
+            <img src="fotos/foto2.jpg" alt="Nuestra foto">
+        </div>
+    </div>
+
+    <div class="carta">
+        <div class="texto">
+            Sé que después de todo lo que pasó no es fácil simplemente volver. Pero tampoco quiero quedarme con la duda de qué habría pasado si los dos hubiéramos intentado una vez más. Si todavía existe un poquito de cariño, me gustaría que nos diéramos la oportunidad de empezar de nuevo, despacio y sin presiones. 💗
+        </div>
+
+        <div class="foto">
+            <img src="fotos/foto3.jpg" alt="Nuestra foto">
+        </div>
+    </div>
+
+    <div class="carta">
+        <div class="texto">
+            No te estoy pidiendo que olvides todo de un día para otro. Solo te estoy pidiendo una oportunidad para demostrarte que aprendí de mis errores. Quiero que, si algún día volvemos a intentarlo, no sea para repetir nuestra historia, sino para escribir una mucho más bonita. 🌸
+        </div>
+
+        <div class="foto">
+            <img src="fotos/foto4.jpg" alt="Nuestra foto">
+        </div>
+    </div>
+
+    <div class="carta">
+        <div class="texto">
+            Si pudiera pedir un solo deseo, sería volver a tener una oportunidad contigo. No para borrar nuestros errores, sino para demostrarte que podemos aprender de ellos. Quiero que esta vez nos elijamos incluso en los días difíciles, que hablemos en lugar de alejarnos y que cuidemos lo que tenemos. ¿Lo intentamos de nuevo? 💕
+        </div>
+
+        <div class="foto">
+            <img src="fotos/foto5.jpg" alt="Nuestra foto">
+        </div>
+    </div>
+
+    <div class="carta">
+        <div class="texto">
+            Como podría dejar de amarte si, cada vez que mis ojos se encuentran con los tuyos, mi corazón estalla dentro de mí. 💕
+        </div>
+
+        <div class="foto">
+            <img src="fotos/foto6.jpg" alt="Nuestra foto">
+        </div>
+    </div>
+
+    <div class="pregunta">
+        Entonces... ¿lo intentamos de nuevo? 🥺
+    </div>
+
+    <div class="botones">
+
+        <button class="boton" onclick="decirSi()">
+            Sí 💗
+        </button>
+
+        <button class="boton" onclick="decirNo()">
+            No 🥺
+        </button>
+
+    </div>
+
+    <div id="mensaje"></div>
+
+    <div class="posdata">
+        <div class="posdata-titulo">
+            Posdata: 💌
+        </div>
+
+        Dame la oportunidad de demostrarte que podemos seguir, amor. Sé que las cosas son difíciles, pero podemos con esto. Solo te pido una oportunidad, una última, mi niña, por favor. ❤️
+    </div>
+
+    <div class="fecha">
+        11/08/2026
+    </div>
+
+</div>
+
+<script>
+
+    let contadorNo = 0;
+
+    function decirSi() {
+
+        document.getElementById("mensaje").style.display = "block";
+
+        document.getElementById("mensaje").innerHTML =
+            "Perfecto, ya mandé mensaje a Feo, ntc 😂 todavía no sé hacer eso, pero si le diste que sí, mándame un mensaje y con mucho gusto seré el hombre más feliz. 💗🥹";
+    }
+
+    function decirNo() {
+
+        contadorNo++;
+
+        let mensajes = [
+
+            "Creo que te equivocaste, era la otra opción. 🥺💔",
+
+            "No se puede seleccionar esta opción... intenta la otra. 😔",
+
+            "¿Segura? 🥺 Porque aquí alguien acaba de perder un poquito de esperanza...",
+
+            "Está bien, lo entiendo. Solo quería una oportunidad más. Aunque confieso que esperaba ver un 'sí'. 💔",
+
+            "Creo que mi corazón acaba de recibir otro pequeño golpe... pero todavía te quiero. 🥺",
+
+            "Bueno... voy a fingir que no me dolió. Procede a mirar tristemente por la ventana. 😔🌧️",
+
+            "Está bien... no voy a insistir. Pero déjame tener cinco minutos para estar dramático. 🥲💔",
+
+            "Entiendo tu respuesta. Solo quería que supieras que, aunque dijeras que no, yo sí estaba dispuesto a intentarlo una vez más. 🌸",
+
+            "Creo que esta página no estaba preparada para ese 'no'... y yo tampoco. 🥺",
+
+            "Último intento de convencerte: ¿y si ese 'no' fue un 'sí' que todavía no se decide? 👀💕"
+
+        ];
+
+        let indice = (contadorNo - 1) % mensajes.length;
+
+        document.getElementById("mensaje").style.display = "block";
+
+        document.getElementById("mensaje").innerHTML =
+            mensajes[indice];
+    }
+
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
